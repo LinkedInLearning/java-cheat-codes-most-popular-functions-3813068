@@ -26,10 +26,5 @@ public class Tester {
         for (Answer answer : answers) {
             System.out.println(answer);
         }
-
-        // Analyzing behavior:
-        // - Removing from empty lists
-        // - Removing with invalid indices
-        
     }
 }

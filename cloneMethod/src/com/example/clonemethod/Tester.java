@@ -13,8 +13,6 @@ public class Tester {
 
         // Check original name
         System.out.println("Original name: " + answer1.getName()); // Should print "Alice"
-
-        // can add other tests involving cloning logic
     }
 }
 

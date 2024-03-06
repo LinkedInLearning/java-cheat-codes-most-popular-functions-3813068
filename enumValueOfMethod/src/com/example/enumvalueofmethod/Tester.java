@@ -1,4 +1,5 @@
 package com.example.enumvalueofmethod;
+
 import java.util.Scanner;
 
 public class Tester {
@@ -23,7 +24,6 @@ public class Tester {
         if (answer1.isValidGenre()) {
             System.out.println(answer1.getGenreDescription(answer1.getChosenGenreEnum()));
         }
-        // ... add tests for other cases and optional methods
 
         // Example of user input:
         Scanner scanner = new Scanner(System.in);

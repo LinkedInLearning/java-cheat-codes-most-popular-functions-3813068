@@ -3,7 +3,6 @@ package com.example.clonemethod;
 public class Answer implements Cloneable {
 
     private String name;
-    // ... other fields
 
     public Answer(String name) {
         this.name = name;
@@ -17,10 +16,9 @@ public class Answer implements Cloneable {
         return name;
     }
 
-    // Override clone() method (shallow copy in this example)
+    // Override clone() method
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 }
-

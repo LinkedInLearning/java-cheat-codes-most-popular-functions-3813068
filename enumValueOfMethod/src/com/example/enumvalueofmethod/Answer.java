@@ -8,7 +8,7 @@ public class Answer {
     }
 
     private String chosenGenreString; // Stores the string representing the chosen genre
-    private Genre chosenGenreEnum; // Stores the enum equivalent of the chosen genre (if valid)
+    private Genre chosenGenreEnum; // Stores the enum equivalent of the chosen genre
 
     public Answer(String chosenGenreString) {
         this.chosenGenreString = chosenGenreString;
@@ -37,14 +37,14 @@ public class Answer {
         return chosenGenreEnum != null; // True if the enum is not null (valid genre)
     }
 
-    // Optional method to provide a description for a given genre (example implementation)
+    // Optional method to provide a description for a given genre (example
+    // implementation)
     public String getGenreDescription(Genre genre) {
         switch (genre) {
             case ROCK:
                 return "High-energy music with electric guitars and drums.";
             case POP:
                 return "Catchy and popular music with diverse styles.";
-            // ... add descriptions for other genres
             default:
                 return "No description available.";
         }
