@@ -1,6 +1,10 @@
 # Java Cheat Codes: Most Popular Functions
 This is the repository for the LinkedIn Learning course Java Cheat Codes: Most Popular Functions. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+<p>Java methods (also known as Java functions) allow you to write cleaner, more concise code and solve common programming tasks. Many Java beginners struggle to memorize and effectively utilize the vast array of methods available in the Java library. In this course, engineer and instructor Semirah Dolan provides a focused and practical approach to learning the most popular and versatile Java methods, empowering you to write cleaner, more concise code and solve common programming tasks with confidence.
+<p>This course includes Code Challenges powered by CoderPad. Code Challenges are interactive coding exercises with real-time feedback, so you can get hands-on coding practice alongside the course content to advance your programming skills.</p>
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
@@ -21,15 +25,18 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### Instructor
+
+Semirah Dolan
+
+Engineer, Blockchain Developer, Speaker, Inventor, Instructor
+
+                        
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/semirah-dolan?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/java-cheat-codes-most-popular-functions
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQHTQSDgHPlkWA/learning-public-crop_675_1200/0/1712701864133?e=2147483647&v=beta&t=it-jNUFPoAOdP_I4RibPn6zheY8AgwQ4Vy2kW5qLKrc
 
